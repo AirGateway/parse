@@ -1,4 +1,4 @@
-package xml // import "github.com/tdewolff/parse/xml"
+package xml // import "github.com/AirGateway/parse/xml"
 
 import (
 	"bytes"
@@ -6,8 +6,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/parse"
+	"github.com/AirGateway/test"
 )
 
 type TTs []TokenType

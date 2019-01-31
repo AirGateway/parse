@@ -1,4 +1,4 @@
-package css // import "github.com/tdewolff/parse/css"
+package css // import "github.com/AirGateway/parse/css"
 
 import (
 	"bytes"
@@ -6,8 +6,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/parse"
+	"github.com/AirGateway/test"
 )
 
 ////////////////////////////////////////////////////////////////
@@ -103,8 +103,8 @@ func TestParse(t *testing.T) {
 		// issues
 		{false, "@media print {.class{width:5px;}}", "@media print{.class{width:5px;}}"},                  // #6
 		{false, ".class{width:calc((50% + 2em)/2 + 14px);}", ".class{width:calc((50% + 2em)/2 + 14px);}"}, // #7
-		{false, ".class [c=y]{}", ".class [c=y]{}"},                                                       // tdewolff/minify#16
-		{false, "table{font-family:Verdana}", "table{font-family:Verdana;}"},                              // tdewolff/minify#22
+		{false, ".class [c=y]{}", ".class [c=y]{}"},                                                       // AirGateway/minify#16
+		{false, "table{font-family:Verdana}", "table{font-family:Verdana;}"},                              // AirGateway/minify#22
 
 		// go-fuzz
 		{false, "@-webkit-", "@-webkit-;"},

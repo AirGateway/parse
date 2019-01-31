@@ -1,11 +1,11 @@
-package parse // import "github.com/tdewolff/parse"
+package parse // import "github.com/AirGateway/parse"
 
 import (
 	"encoding/base64"
 	"mime"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 func TestParseNumber(t *testing.T) {

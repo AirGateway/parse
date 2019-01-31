@@ -1,4 +1,4 @@
-package buffer // import "github.com/tdewolff/parse/buffer"
+package buffer // import "github.com/AirGateway/parse/buffer"
 
 import (
 	"io"

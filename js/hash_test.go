@@ -1,9 +1,9 @@
-package js // import "github.com/tdewolff/parse/js"
+package js // import "github.com/AirGateway/parse/js"
 
 import (
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 func TestHashTable(t *testing.T) {

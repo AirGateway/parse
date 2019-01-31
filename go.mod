@@ -1,3 +1,3 @@
-module github.com/tdewolff/parse/v2
+module github.com/AirGateway/parse
 
-require github.com/tdewolff/test v1.0.0
+require github.com/AirGateway/test v1.0.0

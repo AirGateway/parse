@@ -1,6 +1,6 @@
-package html // import "github.com/tdewolff/parse/html"
+package html // import "github.com/AirGateway/parse/html"
 
-import "github.com/tdewolff/parse/v2"
+import "github.com/AirGateway/parse"
 
 var (
 	singleQuoteEntityBytes = []byte("&#39;")

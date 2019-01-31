@@ -1,11 +1,11 @@
-package css // import "github.com/tdewolff/parse/css"
+package css // import "github.com/AirGateway/parse/css"
 
 import (
 	"bytes"
 	"io"
 	"strconv"
 
-	"github.com/tdewolff/parse/v2"
+	"github.com/AirGateway/parse"
 )
 
 var wsBytes = []byte(" ")

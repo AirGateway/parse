@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 func TestPosition(t *testing.T) {

@@ -1,12 +1,12 @@
 // Package json is a JSON parser following the specifications at http://json.org/.
-package json // import "github.com/tdewolff/parse/json"
+package json // import "github.com/AirGateway/parse/json"
 
 import (
 	"io"
 	"strconv"
 
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/parse/v2/buffer"
+	"github.com/AirGateway/parse"
+	"github.com/AirGateway/parse/buffer"
 )
 
 // GrammarType determines the type of grammar

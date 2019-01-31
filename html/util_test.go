@@ -1,9 +1,9 @@
-package html // import "github.com/tdewolff/parse/html"
+package html // import "github.com/AirGateway/parse/html"
 
 import (
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 func TestEscapeAttrVal(t *testing.T) {

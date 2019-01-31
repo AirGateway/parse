@@ -1,4 +1,4 @@
-package strconv // import "github.com/tdewolff/parse/strconv"
+package strconv // import "github.com/AirGateway/parse/strconv"
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 func TestParseFloat(t *testing.T) {

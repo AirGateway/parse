@@ -1,9 +1,9 @@
-package xml // import "github.com/tdewolff/parse/xml"
+package xml // import "github.com/AirGateway/parse/xml"
 
 import (
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 func TestEscapeAttrVal(t *testing.T) {

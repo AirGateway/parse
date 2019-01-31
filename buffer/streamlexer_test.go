@@ -1,11 +1,11 @@
-package buffer // import "github.com/tdewolff/parse/buffer"
+package buffer // import "github.com/AirGateway/parse/buffer"
 
 import (
 	"bytes"
 	"io"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 func TestBufferPool(t *testing.T) {

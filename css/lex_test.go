@@ -1,4 +1,4 @@
-package css // import "github.com/tdewolff/parse/css"
+package css // import "github.com/AirGateway/parse/css"
 
 import (
 	"bytes"
@@ -6,7 +6,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 type TTs []TokenType

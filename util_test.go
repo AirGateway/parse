@@ -1,4 +1,4 @@
-package parse // import "github.com/tdewolff/parse"
+package parse // import "github.com/AirGateway/parse"
 
 import (
 	"bytes"
@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 func helperRand(n, m int, chars []byte) [][]byte {

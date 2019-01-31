@@ -1,6 +1,6 @@
-package xml // import "github.com/tdewolff/parse/xml"
+package xml // import "github.com/AirGateway/parse/xml"
 
-import "github.com/tdewolff/parse/v2"
+import "github.com/AirGateway/parse"
 
 var (
 	ltEntityBytes          = []byte("&lt;")

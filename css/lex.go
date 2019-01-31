@@ -1,5 +1,5 @@
 // Package css is a CSS3 lexer and parser following the specifications at http://www.w3.org/TR/css-syntax-3/.
-package css // import "github.com/tdewolff/parse/css"
+package css // import "github.com/AirGateway/parse/css"
 
 // TODO: \uFFFD replacement character for NULL bytes in strings for example, or atleast don't end the string early
 
@@ -8,8 +8,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/parse/v2/buffer"
+	"github.com/AirGateway/parse"
+	"github.com/AirGateway/parse/buffer"
 )
 
 // TokenType determines the type of token, eg. a number or a semicolon.

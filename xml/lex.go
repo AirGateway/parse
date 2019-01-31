@@ -1,12 +1,12 @@
 // Package xml is an XML1.0 lexer following the specifications at http://www.w3.org/TR/xml/.
-package xml // import "github.com/tdewolff/parse/xml"
+package xml // import "github.com/AirGateway/parse/xml"
 
 import (
 	"io"
 	"strconv"
 
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/parse/v2/buffer"
+	"github.com/AirGateway/parse"
+	"github.com/AirGateway/parse/buffer"
 )
 
 // TokenType determines the type of token, eg. a number or a semicolon.

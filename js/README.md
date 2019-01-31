@@ -1,15 +1,15 @@
-# JS [![GoDoc](http://godoc.org/github.com/tdewolff/parse/js?status.svg)](http://godoc.org/github.com/tdewolff/parse/js)
+# JS [![GoDoc](http://godoc.org/github.com/AirGateway/parse/js?status.svg)](http://godoc.org/github.com/AirGateway/parse/js)
 
 This package is a JS lexer (ECMA-262, edition 6.0) written in [Go][1]. It follows the specification at [ECMAScript Language Specification](http://www.ecma-international.org/ecma-262/6.0/). The lexer takes an io.Reader and converts it into tokens until the EOF.
 
 ## Installation
 Run the following command
 
-	go get -u github.com/tdewolff/parse/v2/js
+	go get -u github.com/AirGateway/parse/js
 
 or add the following import and run project with `go get`
 
-	import "github.com/tdewolff/parse/v2/js"
+	import "github.com/AirGateway/parse/js"
 
 ## Lexer
 ### Usage
@@ -59,7 +59,7 @@ package main
 import (
 	"os"
 
-	"github.com/tdewolff/parse/v2/js"
+	"github.com/AirGateway/parse/js"
 )
 
 // Tokenize JS from stdin.
@@ -84,6 +84,6 @@ func main() {
 ```
 
 ## License
-Released under the [MIT license](https://github.com/tdewolff/parse/blob/master/LICENSE.md).
+Released under the [MIT license](https://github.com/AirGateway/parse/blob/master/LICENSE.md).
 
 [1]: http://golang.org/ "Go Language"

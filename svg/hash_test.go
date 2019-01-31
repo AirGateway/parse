@@ -1,9 +1,9 @@
-package svg // import "github.com/tdewolff/parse/svg"
+package svg // import "github.com/AirGateway/parse/svg"
 
 import (
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 func TestHashTable(t *testing.T) {

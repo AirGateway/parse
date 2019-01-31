@@ -1,10 +1,10 @@
-package html // import "github.com/tdewolff/parse/html"
+package html // import "github.com/AirGateway/parse/html"
 
 import (
 	"bytes"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/test"
 )
 
 func TestHashTable(t *testing.T) {

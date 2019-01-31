@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/tdewolff/parse/v2/buffer"
-	"github.com/tdewolff/test"
+	"github.com/AirGateway/parse/buffer"
+	"github.com/AirGateway/test"
 )
 
 func TestError(t *testing.T) {
